@@ -1,5 +1,8 @@
 import jester, asyncdispatch, json, logging
 
+settings:
+  port = Port(10000)
+
 routes:
   get "/stress":
     var obj = newJObject()
